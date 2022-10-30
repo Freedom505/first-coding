@@ -14,5 +14,5 @@
 }
 .welcome-header__box2 {
   width: 50%;
-  opacity: 0.65;
+  color: var(--gray);
 }
