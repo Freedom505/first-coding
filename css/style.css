@@ -3,6 +3,7 @@
 @import "screen/welcome.css";
 @import "screen/loginform.css";
 @import "variable.css";
+@import "components/header.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,

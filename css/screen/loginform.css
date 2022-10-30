@@ -4,8 +4,10 @@
 }
 .login-form input {
   border: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   padding: 20px 0px;
+}
+.login-from input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   transition: border-color 0.3s ease-in-out;
 }
 .login-form input::placeholder {
@@ -19,13 +21,16 @@
   margin-bottom: 40px;
 }
 .login-form input:nth-child(n + 3) {
-  border-radius: 3%;
+  /*input:[type="submit"]으로 대체 가능*/
+  border-radius: 5px;
   margin: 10px 0px;
   border: none;
   transition: color 0.3s ease-in-out;
+  cursor: pointer;
+  background-color: var(--yellow);
 }
 .login-form input:nth-child(n + 3):hover {
-  outline: 1px solid var(--yellow);
+  outline: 1px solid tomato;
 }
 .login-form a {
   text-align: center;
