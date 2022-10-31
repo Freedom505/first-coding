@@ -1,3 +1,22 @@
+.welcome-header {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  text-align: center; /* p나 span같은 텍스트 엘리먼트들은 이걸 이용해서 가운데 정렬이 가능함*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-header__box1 {
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.welcome-header__box2 {
+  width: 50%;
+  color: var(--gray);
+}
+
 .login-form {
   display: flex;
   flex-direction: column;

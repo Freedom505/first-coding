@@ -127,3 +127,19 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+main {
+  margin: 0px 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+body {
+  height: 200vh;
+}
