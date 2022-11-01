@@ -1,9 +1,8 @@
 .profile {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
   padding-bottom: 20px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .profile__img {
   height: 60px;
@@ -11,6 +10,6 @@
   border-radius: 20px;
   margin-right: 10px;
 }
-.profile__span {
-  font-weight: 700;
+.profile__title {
+  margin-bottom: 10px;
 }

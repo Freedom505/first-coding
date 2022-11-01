@@ -3,6 +3,8 @@
 /* SCREEN*/
 @import "screen/index.css";
 @import "screen/friends.css";
+@import "screen/chats.css";
+@import "screen/chatting.css";
 /*COMPONENTS*/
 @import "components/header.css";
 @import "components/statusbar.css";

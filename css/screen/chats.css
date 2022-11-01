@@ -1,16 +1,15 @@
-.header-friends {
+.header-chats {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0px 20px;
-  margin-top: 45px;
-  margin-bottom: 10px;
+  margin-top: 80px;
+  margin-bottom: 40px;
 }
-.header-friends h1 {
+.header-chats h1 {
   font-size: 25px;
   font-weight: 500;
 }
-
-.header-friends__icons__music {
-  margin: 0px 10px;
+.header-chats__icons i {
+  margin-left: 20px;
 }
