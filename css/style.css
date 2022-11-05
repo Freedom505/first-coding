@@ -6,6 +6,7 @@
 @import "screen/chats.css";
 @import "screen/chatting.css";
 @import "screen/find.css";
+@import "screen/more.css";
 /*COMPONENTS*/
 @import "components/header.css";
 @import "components/statusbar.css";

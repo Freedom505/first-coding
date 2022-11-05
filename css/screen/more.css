@@ -1,0 +1,10 @@
+.more-dot {
+  display: flex;
+  height: 4px;
+  width: 4px;
+  border-radius: 2px;
+  background-color: tomato;
+  position: absolute;
+  left: 128px;
+  bottom: 15px;
+}
