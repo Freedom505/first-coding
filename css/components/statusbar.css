@@ -1,27 +1,25 @@
 .status-bar {
   position: fixed;
-  top: 0;
   width: 100%;
-  margin: 8px 5px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  top: 0;
 }
 .status-bar__box {
-  width: 33%;
-}
-.status-bar__box:nth-child(2) {
-  display: flex;
+  width: 100px; /*이게 정말 어려웠다...*/
+  display: flex; /*플렉스를 여기에 줘야 안에있는 애들을 정렬할수 있음*/
   justify-content: center;
-}
-.status-bar__box:last-child {
-  display: flex;
-  justify-content: flex-end;
   align-items: center;
 }
-.status-bar__box .fa-battery-quarter {
-  margin: 0px 5px;
+.status-bar__box3 {
+  width: 100px; /*이게 정말 어려웠다...*/
+  display: flex;
+  justify-content: flex-end;
 }
-.status-bar__box:first-child span {
-  margin-right: 5px;
+
+.status-bar__margin {
+  margin-right: 3px;
 }
-/* css 잡기술임.센터를 딱 맞추기 위한 잡기술 */
