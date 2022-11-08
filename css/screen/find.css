@@ -92,8 +92,26 @@
   padding: 6px;
   border-radius: 15px;
 }
+@keyframes heartbeat {
+  0% {
+    transform: none;
+    color: white;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.2);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
 #heart {
   margin-right: 5px;
+}
+.bts__box__second:hover i {
+  animation: heartbeat 1s linear infinite;
+  will-change: transform;
 }
 .find-dot {
   display: flex;
