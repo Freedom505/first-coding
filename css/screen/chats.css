@@ -21,6 +21,37 @@
     transform: rotateZ(360deg);
   }
 }
+@keyframes heartbeatmusic {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.1);
+    color: tomato;
+  }
+  100% {
+    transform: none;
+  }
+}
+@keyframes heartbeatcomm {
+  from {
+    transform: rotateZ(360deg);
+    transform: scale(1.1);
+    color: tomato;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
 .header-chats .fa-gear:hover {
   animation: rotatecog 1s linear infinite;
+}
+.header-chats .fa-music:hover {
+  will-change: transform;
+  animation: heartbeatmusic 1s linear infinite;
+}
+.header-chats .fa-comment-medical:hover {
+  will-change: transform;
+  animation: heartbeatcomm 1s linear infinite;
 }

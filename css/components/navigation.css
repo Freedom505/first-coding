@@ -16,17 +16,7 @@
 .nav_li {
   position: relative;
 }
-@keyframes notificationanimation {
-  0% {
-    transform: none;
-  }
-  50% {
-    transform: translateY(-5px) rotateY(360deg);
-  }
-  100% {
-    transform: none;
-  }
-}
+
 .nav_notification {
   display: flex;
   width: 25px;
@@ -52,25 +42,4 @@
   left: 30px;
   bottom: 15px;
   animation: notificationanimation 2s ease-in-out;
-}
-@keyframes navlianimation {
-  from {
-    transform: translateY(50px);
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.nav_li {
-  animation: navlianimation 1s ease-in-out forwards;
-}
-.nav_li:nth-child(2) {
-  animation-delay: 0.2s;
-}
-.nav_li:nth-child(3) {
-  animation-delay: 0.5s;
-}
-.nav_li:nth-child(4) {
-  animation-delay: 0.8s;
 }

@@ -61,7 +61,7 @@
   width: 100px;
 }
 .icons-box i {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .icons-2 {
@@ -108,4 +108,11 @@
 }
 .icons-box:nth-child(2) {
   position: relative;
+}
+
+.hover:hover {
+  transform: scale(1.3);
+}
+.hover-sm:hover {
+  transform: scale(1.2);
 }
