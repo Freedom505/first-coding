@@ -43,3 +43,46 @@
   bottom: 15px;
   animation: notificationanimation 2s ease-in-out;
 }
+
+@keyframes navigationani {
+  from {
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+.nav_li {
+  transform: translateY(50px);
+  animation: navigationani 0.3s linear forwards;
+  opacity: 0;
+}
+
+.nav_li:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.nav_li:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.nav_li:last-child {
+  animation-delay: 0.3s;
+}
+
+.slow:first-child {
+  animation-delay: 1.3s;
+}
+
+.slow:nth-child(2) {
+  animation-delay: 1.4s;
+}
+
+.slow:nth-child(3) {
+  animation-delay: 1.5s;
+}
+
+.slow:last-child {
+  animation-delay: 1.6s;
+}
